@@ -57,3 +57,9 @@ h1 {
 p {
     color: rgb(216, 18, 18);
 }
+
+.travel-entries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
