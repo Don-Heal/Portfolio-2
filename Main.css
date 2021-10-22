@@ -3,10 +3,21 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+nav img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid silver;
+}
+
 nav {
-    min-height: "100vh";
-    width: "270px";
-    position: "fixed";
+    min-height: 100vh;
+    width: 270px;
+    position: fixed;
     top: 0;
     left: 0;
     background-color: rgb(72, 9, 219);
@@ -14,6 +25,12 @@ nav {
 
 nav ul {
     list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: whitesmoke
 }
 
 section {
