@@ -3,6 +3,19 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+nav {
+    min-height: "100vh";
+    width: "270px";
+    position: "fixed";
+    top: 0;
+    left: 0;
+    background-color: rgb(72, 9, 219);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
 section {
     min-height: 100vh;
     background-color: rgb(80, 142, 170);
